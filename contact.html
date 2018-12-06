@@ -9,53 +9,48 @@
   <link rel="stylesheet" href="css/contact.css">
   <title>MTM6330-F18 Final Project</title>
 </head>
-<ul class="nav">
-  <li><a href="#Home">Home</a></li>
-  <li><a href="#Schedules">News</a></li>
-  <li><a href="#Courses">Contact</a></li>
-  <li><a href="#Contact">About</a></li>
-</ul>
+<header>
+  <div class="container">
+    <h1 class="logo"></h1>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><input type="text" placeholder="Search.." name="search"><li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
 <body>
-  <div class="container">
-    <div class="jumbotron my-5">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-        featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container. lolol</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p>
-    </div>
-  </div>
-  <div class="container">
-    <div style="text-align:center">
-      <h2>Contact Us</h2>
-      <p>Swing by for a cup of coffee, or leave us a message:</p>
-    </div>
-    <div class="row">
-      <div class="column">
-        <img src="/w3images/map.jpg" style="width:100%">
-      </div>
-      <div class="column">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-    </div>
-  </div>
+  	<section id="hire">
+        <h1>Contact Us</h1>
+        
+        <form>
+            <div class="field name-box">
+                <input type="text" id="name" placeholder="Who Are You?"/>
+                <label for="name">Name</label>
+                <span class="ss-icon">check</span>
+            </div>
+    
+            <div class="field email-box">
+                <input type="text" id="email" placeholder="name@email.com"/>
+                <label for="email">Email</label>
+                <span class="ss-icon">check</span>
+            </div>
+    
+            <div class="field msg-box">
+                <textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+                <label for="msg">Message</label>
+                <span class="ss-icon">check</span>
+            </div>
+    
+            <input class="button" type="submit" value="Send" />
+      </form>
+    </section>
 </body>
 
 </html>
