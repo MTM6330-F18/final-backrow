@@ -213,3 +213,9 @@ body {
     outline: none;
     background: #cd6302;
   }
+  img {
+    margin: -30px;
+    height: 80px;
+    width: 150px;
+
+}
