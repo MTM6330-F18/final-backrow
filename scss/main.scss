@@ -10,7 +10,75 @@ $hr-border-color: #909390; // set the <hr> border colour to AC Charcoal @50% tin
 @import '../node_modules/bootstrap/scss/bootstrap';
 
 // Custom styles that are common for all pages in our project
+/* navigation */
 
+/* SMART PHONE */
+
+h2 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1rem;
+    margin: 0.667rem 0;
+    font-weight: bold;
+    background: #006341;
+}
+
+
+.section-head {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+      background-color: #006341;
+      padding: 2rem;
+      color: white;
+      text-align: center;
+  }
+
+body {
+	margin: 0;
+	background: #fff;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+p {
+    font-style: normal;
+}
+
+.students {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .banner {
+    width: 100%;
+    height: 20%;
+  }
+  
+  .banner img {
+    height : 50%;
+    width: 100%;
+  }
+
+  .display-4 {
+    position: absolute;
+    top: 100px;
+    left: 16px;
+  }
 
 // Load our custom partials with styles specific to a particular page.
 // e.g. @import 'schedule';
