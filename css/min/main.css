@@ -71,3 +71,10 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
+img {
+    margin: -30px;
+    height: 80px;
+    width: 150px;
+
+}
